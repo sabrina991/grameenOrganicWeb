@@ -1,0 +1,160 @@
+.desktop-login-1{
+  .dropdown{
+    margin-top: 80px;
+
+    .btn-secondary{
+      background-color: white;
+      position: absolute;
+      left: 1000px;
+      font-family: 'Nunito';
+      font-size: 18px;
+      line-height: 25px;
+      letter-spacing: 0.05em;
+      color: #A8A0A0;
+      border: none;
+    }
+  }
+  .logo{
+    margin-left: 556px;
+    margin-bottom: 30px;
+  }
+
+  &-desc-sec{
+    width: 46%;
+    margin-left: 336px;
+
+    .desktop-login-1-desc{
+      font-family: 'Roboto';
+      font-size: 24px;
+      line-height: 28px;
+      text-align: center;
+      color: #000000;
+   }
+  }
+}
+.login-account{
+  .heading-logo{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-left: 200px;
+
+    &-h1{
+      font-family: 'Raleway';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 23px;
+      color: #000000;
+    }
+
+    &-icon{
+      width: 20px;
+      height: 23px;
+    }
+  }
+  &-txt{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    color: #636363;
+  }
+
+  .dropdown{
+    .btn-secondary{
+      background-color: white;
+      font-family: 'Nunito';
+      font-size: 18px;
+      line-height: 25px;
+      letter-spacing: 0.05em;
+      color: #A8A0A0;
+      border: none;
+    }
+  }
+
+  // tab-section//
+  .main-content{
+    .tabs {
+      position: relative;
+      min-height: 300px;
+      margin: 2rem auto;
+      max-width: 800px;
+    }
+  }
+  
+  .tab {
+    float: left;
+    text-align: center;
+
+    label {
+      padding: 10px 30px;
+      cursor: pointer;
+      font-family: 'Outfit';
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 20px;
+      color: #000000;
+    }
+
+    .content {
+      position: absolute;
+      top: 55px;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: white;
+      overflow: auto;
+      padding: 20px;
+
+      form{
+        .btn-primary{
+          background: #00BD6A;
+          border: none;
+          width: 339px;
+          height: 55px;
+          border-radius: 12px;
+          font-family: 'Outfit';
+          font-style: normal;
+          font-weight: 600;
+          font-size: 18px;
+          line-height: 23px;
+          color: #FFFFFF;
+        }
+      }
+    }
+  }
+  
+  
+  
+  .tab [type="radio"] {
+    display: none;
+  }
+  
+  
+  
+  [type="radio"]:checked ~ label {
+    border-radius: 8px 0px 0px 8px;
+    background: #00BD6A;
+    border-bottom: 1px solid #fff;
+    z-index: 2;
+    font-family: 'Outfit';
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 23px;
+    color: #FFFFFF;
+  }
+  
+  [type="radio"]:checked ~ label ~ .content {
+    z-index: 1;
+  }
+  
+  
+  /*** Mobile Responsive ***/
+  @media (max-width: 415px) {
+    .tab label {
+      padding: 7px 10px;
+    }
+  }
+}

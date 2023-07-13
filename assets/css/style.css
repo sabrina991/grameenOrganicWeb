@@ -1,0 +1,143 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  font-family: Poppins, sans-serif;
+}
+
+.desktop-login-1 .dropdown {
+  margin-top: 80px;
+}
+.desktop-login-1 .dropdown .btn-secondary {
+  background-color: white;
+  position: absolute;
+  left: 1000px;
+  font-family: "Nunito";
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 0.05em;
+  color: #A8A0A0;
+  border: none;
+}
+.desktop-login-1 .logo {
+  margin-left: 556px;
+  margin-bottom: 30px;
+}
+.desktop-login-1-desc-sec {
+  width: 46%;
+  margin-left: 336px;
+}
+.desktop-login-1-desc-sec .desktop-login-1-desc {
+  font-family: "Roboto";
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  color: #000000;
+}
+
+.login-account {
+  /*** Mobile Responsive ***/
+}
+.login-account .heading-logo {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  margin-left: 200px;
+}
+.login-account .heading-logo-h1 {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  color: #000000;
+}
+.login-account .heading-logo-icon {
+  width: 20px;
+  height: 23px;
+}
+.login-account-txt {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+  color: #636363;
+}
+.login-account .dropdown .btn-secondary {
+  background-color: white;
+  font-family: "Nunito";
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 0.05em;
+  color: #A8A0A0;
+  border: none;
+}
+.login-account .main-content .tabs {
+  position: relative;
+  min-height: 300px;
+  margin: 2rem auto;
+  max-width: 800px;
+}
+.login-account .tab {
+  float: left;
+  text-align: center;
+}
+.login-account .tab label {
+  padding: 10px 30px;
+  cursor: pointer;
+  font-family: "Outfit";
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+}
+.login-account .tab .content {
+  position: absolute;
+  top: 55px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: white;
+  overflow: auto;
+  padding: 20px;
+}
+.login-account .tab .content form .btn-primary {
+  background: #00BD6A;
+  border: none;
+  width: 339px;
+  height: 55px;
+  border-radius: 12px;
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 23px;
+  color: #FFFFFF;
+}
+.login-account .tab [type=radio] {
+  display: none;
+}
+.login-account [type=radio]:checked ~ label {
+  border-radius: 8px 0px 0px 8px;
+  background: #00BD6A;
+  border-bottom: 1px solid #fff;
+  z-index: 2;
+  font-family: "Outfit";
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 23px;
+  color: #FFFFFF;
+}
+.login-account [type=radio]:checked ~ label ~ .content {
+  z-index: 1;
+}
+@media (max-width: 415px) {
+  .login-account .tab label {
+    padding: 7px 10px;
+  }
+}/*# sourceMappingURL=style.css.map */
